@@ -1,0 +1,10 @@
+        stage('initialise centos'){
+                echo "initialise centos"
+        }
+        stage('run centos'){
+                echo "run centos"
+        }
+        stage('exit centos'){
+                echo "exit centos"
+        }
+return this

@@ -1,0 +1,11 @@
+        stage('initialise ubuntu'){
+                echo "initialise ubuntu"
+        }
+        stage('run ubuntu'){
+                echo "run ubuntu"
+        }
+        stage('exit ubuntu'){
+                echo "exit ubuntu"
+        }
+
+        return this
